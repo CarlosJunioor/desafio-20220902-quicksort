@@ -9,8 +9,7 @@ char ft_strlen(char *str)
     {
         if (str[i] < 65 || str[i] > 122)
         {
-            printf("found it!");
-            
+        printf("found something!");
         }
         write(1,&str[i],1);
         i++;
